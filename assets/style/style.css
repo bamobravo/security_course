@@ -1,0 +1,13 @@
+.home-container{
+	background: url('../images/bg2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.home-left{
+	background-color: #e8e8e8;
+}
+.home-left > div{
+	margin-top: 10rem;
+}
