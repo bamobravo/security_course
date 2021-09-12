@@ -11,3 +11,11 @@
 .home-left > div{
 	margin-top: 10rem;
 }
+
+label > span{
+	color: red;
+}
+
+.reg-form-container{
+	background-color: #dbdbdb;
+}
