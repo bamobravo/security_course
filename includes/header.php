@@ -1,3 +1,5 @@
+
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,15 +20,19 @@
     </button>
     <div class=" d-flex justify-content-end pl-md-5 p-2 collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0 ml-md-5" style="color;white">
-        <li class="nav-item">
+        
+        <?php if (!(@$_SESSION['visited'] || $_SESSION['firstname'])): ?>
+          <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.php">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-primary" href="course.php">Proceed To Course</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.php">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="course.php">Proceed To Course</a>
+          </li>
+        <?php endif ?>
+        
 
       </ul>
     </div>
