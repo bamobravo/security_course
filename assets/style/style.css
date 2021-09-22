@@ -1,3 +1,6 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .home-container{
 	background: url('../images/bg2.jpeg');
 	background-repeat: no-repeat;
@@ -18,4 +21,39 @@ label > span{
 
 .reg-form-container{
 	background-color: #dbdbdb;
+}
+.section-image{
+	margin-top: 15rem;
+	margin-bottom: 5rem!important;
+}
+
+.section-image > img{
+	max-width: 100%;
+	margin-bottom: 1rem;
+}
+.course-text{
+	margin-top: 6rem;
+	background-color: white;
+	font-size: 1.1rem;
+	line-height: 2.5rem;
+}
+
+.course-text > .heading{
+	font-size: 2rem;
+	border-bottom: solid 2px #ccc;
+	padding-bottom: 1.2rem;
+	font-family: 'Lato', sans-serif;
+}
+.stage-indicator{
+	font-weight: bold;
+}
+.question-option ul{
+	list-style: none ;
+}
+.question-option input{
+	margin-right: 10px;
+}
+.question{
+	padding-right: 2rem;
+	margin-top: 3rem;
 }

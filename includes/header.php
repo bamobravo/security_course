@@ -1,5 +1,5 @@
 
-<?php session_start() ?>
+<?php @session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +9,15 @@
   <meta name="description" content="" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <link href="assets/style/style.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="icon" href="assets/images/logo1.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">  <link rel="icon" href="assets/images/logo1.png">
 </head>
 <body>
+  <header>
   <nav class="navbar navbar-expand-lg p-0 navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="assets/images/logo1.png" alt="Security Course"></a>
+    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" style="width:100px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -38,3 +41,4 @@
     </div>
   </div>
 </nav>
+</header>
