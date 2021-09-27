@@ -2,8 +2,12 @@
 error_reporting(E_ALL);
 	session_start();
 	if (!(@$_SESSION['visited'] || isset($_POST['start-button']))) {
-		header("Location:".$_SERVER['HTTP_REFERER']);
+
+		header("Location:index.php");
 		exit();
+	}
+	if ((isset($_SESSION['firstname']) && $_SESSION['firstname'])) {
+	  header("Location:lessons.php");exit;
 	}
 	//start session and save a recored there, then use that to show that the user has visited the necessary pages before now
 	$_SESSION['visited']=true;

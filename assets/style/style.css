@@ -38,6 +38,12 @@ label > span{
 	line-height: 2.5rem;
 }
 
+.course-item > .heading{
+	font-size: 2rem;
+	border-bottom: solid 2px #ccc;
+	padding-bottom: 1.2rem;
+	font-family: 'Lato', sans-serif;
+}
 .course-text > .heading{
 	font-size: 2rem;
 	border-bottom: solid 2px #ccc;
@@ -73,8 +79,24 @@ label > span{
 	margin: 0;
 	border-radius: 6px;
 }
-
 .login-icon > img{
 	width: 5rem;
 	/*max-width: 100%;*/
+}
+.greeting{
+	margin-right: 15px;
+}
+.logout{
+	margin-left: 15px;
+}
+.underline{
+	padding-bottom: 5px;
+	border-bottom: solid thin #ccc;
+	margin-bottom: 1rem;
+}
+.course-item{
+	display: none;
+}
+.course-item.active{
+	display: block!important;
 }

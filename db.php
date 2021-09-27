@@ -10,8 +10,8 @@ $dbname='security_course';
 // deployment
 
 // $host='dcrhg4kh56j13bnu.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-// $username='y44jvnk4jhyz7w07';
-// $password='tcumajg8kww5qexo';
+// $dbuser='y44jvnk4jhyz7w07';
+// $dbpass='tcumajg8kww5qexo';
 // $dbname='pdb7m1dklcvea3pf';
 	
 

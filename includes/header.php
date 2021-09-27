@@ -34,6 +34,13 @@
           <li class="nav-item">
             <a class="nav-link btn btn-primary" href="course.php">Proceed To Course</a>
           </li>
+        <?php else: ?>
+          <?php if (isset($_SESSION['firstname']) && $_SESSION['firstname']): ?>
+            <div class="container-fluid p-3 d-flex justify-content-end text-light">
+              <span class="d-inline-block greeting">Welcome <?php echo $_SESSION['firstname'].' '.$_SESSION['lastname'].' !'?></span> 
+            </div>
+          <?php endif ?>
+         
         <?php endif ?>
         
 
