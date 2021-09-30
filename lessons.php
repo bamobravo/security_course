@@ -1,9 +1,9 @@
 
 <?php 
 @session_start();
-if (!(isset($_SESSION['firstname']) && $_SESSION['firstname'])) {
-  header("Location:registration.php");exit;
-}
+// if (!(isset($_SESSION['firstname']) && $_SESSION['firstname'])) {
+//   header("Location:registration.php");exit;
+// }
 include 'includes/header.php' 
 
 ?>
@@ -104,7 +104,7 @@ include 'includes/header.php'
                     The attacker composes an email that states that the target will be qualified to win. For example, an iPad can be given out to those who fill out a survey of questionnaire. The questionnaire will then request for very sensitive information of respondents
                   </p>
                   <p>
-                    The victim gets the email, fills out the questions which require him to reply the reply the attacker by filling out a questionnaire. This will give the attacker an unlimited access to victim’s personal details. Then the victim’s bank account would be emptied within a few minutes.
+                    The victim gets the email, fills out the questions which require him to reply  the attacker by filling out a questionnaire. This will give the attacker an unlimited access to victim’s personal details. Then the victim’s bank account would be emptied within a few minutes.
                   </p>
               </section>
               <h3 class="mb-4 mt-4">Spear Phishing</h3>
@@ -155,6 +155,9 @@ include 'includes/header.php'
                     <li>Enable Multi-factor to increase the security of your accounts</li>
                     <li>Do not leave your computer unlock when leaving your desk</li>
                     <li>Report any supspicious messages to the appropriate security</li>
+                    <li>Follow all security guidlines in your organization and be ready to attend trainings of social engineering security</li>
+                    <li>Even when you get an email, showing name of the person you are very familiar with, still go ahead to verify the information in the email</li>
+                    <li>When an email is from a known person within the organization requesting for sensitive information and you have verify all the details in the message to be correct, still reach the person through other means to verify that the person actually sent the mail</li>
                     
                   </ol>
                 </p>
