@@ -26,7 +26,7 @@ error_reporting(E_ALL);
 		$role = trim(@$_POST['role']);
 
 		if ($firstname && $lastname && $email && $phone && $company && $role) {
-			$query="INSERT INTO student(firstname,lastname,phone,email,company,role_in_company) VALUES (?,?,?,?,?,?)";
+			$query="INSERT INTO student(firstname,lastname,email,phone,company,role_in_company) VALUES (?,?,?,?,?,?)";
 			$statement = $con->prepare($query);
 			$statement->bind_param('ssssss',$firstname,$lastname,$email,$phone,$company,$role);
 			$res =$statement->execute();

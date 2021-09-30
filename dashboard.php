@@ -51,7 +51,7 @@ if (!isset($_SESSION['user_login'])) {
 							<th>Phone Number</th>
 							<th>Company</th>
 							<th>Role in Company</th>
-							<th>Assessment Score</th>
+							<th>Assessment Score(%)</th>
 							<th>Date Created</th>
 						</tr>
 					</thead>

@@ -1,4 +1,10 @@
-<?php include 'includes/header.php' ?>
+<?php 
+include 'includes/header.php' ;
+if (!$_SESSION['view_lessons']) {
+  header("Location:index.php");exit;
+}
+?>
+
 
  <main class="container-fluid home-container">
    <section class="row">
@@ -8,8 +14,8 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-9 course-text p-4 shadow">
-            <div class="heading mb-3">Social Engineering Assessments</div>
-            <em>Answer all questions</em>
+            <div class="heading mb-3">Social Engineering Course Assessments</div>
+            <em>Answer all questions. Questions marked with asterisks has higher points</em>
 
             <form method="post" action="score_assessment.php">
             <div class="assessments">
@@ -154,7 +160,7 @@
                              <label> <input type="radio" name="question7" value="2">Human based social engineering require a person-to-person interaction</label>
                            </li>
                            <li>
-                             <label> <input type="radio" name="question7" value="3">It is impossible to prevent social engineering attack</label>
+                             <label> <input type="radio" name="question7" value="3">It is impossible to mitigate social engineering attack</label>
                            </li>
                            <li>
                              <label> <input type="radio" name="question7" value="4"> None of the above</label>
@@ -185,28 +191,22 @@
                     </li>
                     <li class="question">
                        <div class="question-body">
-                        Which of the following is not a Social Engineering methods?
+                        Social Engineering attacker can make user of social for information gathering; true or false?
                        </div>
                        <div class="question-option">
                          <ul>
                            <li>
-                             <label> <input type="radio" name="question9" value="1" required>Phishing </label>
+                             <label> <input type="radio" name="question9" value="1" required>true </label>
                            </li>
                            <li>
-                             <label> <input type="radio" name="question9" value="2">Spear Phishing</label>
-                           </li>
-                           <li>
-                             <label> <input type="radio" name="question9" value="3">SQL Injection</label>
-                           </li>
-                           <li>
-                             <label> <input type="radio" name="question9" value="4">Pop up Window</label>
+                             <label> <input type="radio" name="question9" value="2">false</label>
                            </li>
                          </ul>
                        </div>
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       When you received an email what are the things you should do to prevent being a victim of social engineering attack
+                       When you received an email what are the things you should do to prevent being a victim of social engineering attack *
                        </div>
                        <div class="question-option">
                          <ul>
@@ -227,7 +227,7 @@
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       What will you do if you discover a mismatch on the information of a message/email you received?
+                       What will you do if you discover a mismatch on the information of a message/email you received? *
                        </div>
                        <div class="question-option">
                          <ul>
@@ -248,7 +248,7 @@
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       You received an email from a colleague within you company requesting for a sensitive information, you have check and verify the information on this email, what is the next thing you will do?
+                       You received an email from a colleague within you company requesting for a sensitive information, you have check and verify the information on this email, what is the next thing you will do? *
                        </div>
                        <div class="question-option">
                          <ul>
@@ -269,7 +269,7 @@
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       Should you enable multi-factor authentication on your account settings?
+                       Should you enable multi-factor authentication on your account settings? *
                        </div>
                        <div class="question-option">
                          <ul>
@@ -290,7 +290,7 @@
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       What will you do if you receive an email requesting you to click a link to win an ipad?
+                       What will you do if you receive an email requesting you to click a link to win an ipad? 
                        </div>
                        <div class="question-option">
                          <ul>
@@ -311,7 +311,7 @@
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       If you are working in an office with other people and you had to step out to get a cup of coffee, which of the following will you do?
+                       If you are working in an office with other people and you had to step out to get a cup of coffee, which of the following will you do? *
                        </div>
                        <div class="question-option">
                          <ul>
@@ -332,7 +332,7 @@
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       Which of the following are precautions to take while performing your duty as an employee?
+                       Which of the following is a precaution to take while performing your duty as an employee?
                        </div>
                        <div class="question-option">
                          <ul>

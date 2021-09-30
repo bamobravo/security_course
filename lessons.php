@@ -1,11 +1,11 @@
 
 <?php 
 @session_start();
-// if (!(isset($_SESSION['firstname']) && $_SESSION['firstname'])) {
-//   header("Location:registration.php");exit;
-// }
-include 'includes/header.php' 
-
+if (!(isset($_SESSION['firstname']) && $_SESSION['firstname'])) {
+  header("Location:registration.php");exit;
+}
+include 'includes/header.php' ;
+$_SESSION['view_lessons']=true;
 ?>
 
  <main class="container-fluid home-container">
