@@ -24,7 +24,15 @@ $_SESSION['view_lessons']=true;
               <h3 class="mb-4 mt-4">What is Social Engineering?</h3>
               <section class="body">
                   <p>
-                    Social engineering attack is the act of influencing or controlling a person or a group of individuals to cause or persuade them to execute specific actions or to leak important information that is of importance to a cyber-attacker
+                   Social engineering is the act of obtaining information by manipulating legitimate sources and this usually requires attackers deceiving the victims <i>(Allsopp (2009))</i>
+                  </p>
+
+                  <p>
+                   Social Engineering can also be seen as the act of finding means to manipulate reliable user to reveal private information in an effort to breakthrough security measures <i>(Mitnick (2003))</i>
+                  </p>
+
+                  <p>
+                    Social Engineering is seen as the art of exploiting the weakest link of information security systems and the people who are using them <i>(Huber et al, 2009)</i>
                   </p>
 
                   <p>
@@ -32,14 +40,19 @@ $_SESSION['view_lessons']=true;
                   </p>
 
                   <p>
-                    Numerous styles of social engineering attack strategies are used by the cyber criminals; however, these attacks are carried out largely by exploiting online communication tools like email (phishing), vishing (phone call), and smishing (SMS). These techniques will be discussed in the next section
+                    Numerous styles of social engineering attack strategies are used by the cyber criminals; however, these attacks are carried out largely by exploiting online communication tools like email (phishing), vishing (phone call), and smishing (SMS). These techniques will be discussed in the next section.
                   </p>
                 
               </section>
-              <h3 class="mb-4 mt-4">The Impact of Social Engineering Attacks</h3>
+              <h3 class="mb-4 mt-4">The Impact of Social Engineering Attacks on Businesses and Economy</h3>
               <section>
                 <p>
-                  It is no news that many arrests involving social engineering attacks and cybercrimes have been on the increase in recent years in many countries. These crimes were connected with cyber criminals hacking into big organisations including banks, health insurance companies, pension and social services organisations
+                  In recent times, many businesses, large and medium scale have lost so much financial resources to cyber criminals. Some mega businesses do have security breach from time to time and this act is usually perpetrated by cyber criminals through social engineering.
+
+                  Furthermore, cyber criminals use phishing to attack businesses by sending them fake mails expressing an intention to partner with them and this is usually presented in very fascinating ways. This has been experienced by many organizations and even countries whereby social engineering attackers or cyber criminals clone companies’ original websites to mislead unsuspecting people for monetary gain or with an intention to discredit the organization
+                </p>
+                <p>
+                  Cyber-attacks often result in substantial financial losses arising from the hacking of corporate information. Social engineering disrupts trading activities which may affect organizations and consequently their online transactions with customers. Not only that, there will also be loss of business or contract. This can lead to financial insolvency and ultimately, liquidation. Businesses that suffer a cyber-breach will also generally suffer huge overhead costs resulting from the repairs and maintenance of networks and devices
                 </p>
 
               </section>
@@ -62,7 +75,7 @@ $_SESSION['view_lessons']=true;
 
 
               </section>
-              <h3 class="mb-4 mt-4">Development of Relationship (rapport) </h3>
+              <h3 class="mb-4 mt-4">Development of Relationship (Rapport) </h3>
               <section>
                 <p>
                   The next stage for the attacker is to form a relationship with the victim or his target to gain trust. Attackers build relationship with the victim for the purpose of winning confidence to his side (Verizon, 2012 & Mann, 2008). So, the victim gets relaxed and comfortable with the attacker whose primary objective is to defraud him without any trace of suspicion. The cyber-criminal spends much time to study his victim.

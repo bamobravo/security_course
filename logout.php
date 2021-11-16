@@ -1,6 +1,7 @@
 <?php 
 
-// https://www.php.net/manual/en/function.session-unset.php
+// code adapted from PHP Group, 2021
+ // https://www.php.net/manual/en/function.session-unset.php
     session_start();
     session_unset();
     session_destroy();

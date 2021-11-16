@@ -24,7 +24,7 @@
     <div class=" d-flex justify-content-end pl-md-5 p-2 collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0 ml-md-5" style="color;white">
         
-        <?php if (!(@$_SESSION['visited'] || $_SESSION['firstname'])): ?>
+        <?php if (!(@$_SESSION['visited'] || @$_SESSION['firstname'])): ?>
           <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
