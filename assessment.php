@@ -1,4 +1,5 @@
 <?php 
+session_start();
 include 'includes/header.php' ;
 if (!$_SESSION['view_lessons']) {
   header("Location:index.php");exit;
@@ -76,7 +77,7 @@ if (!$_SESSION['view_lessons']) {
                              <label> <input type="radio" name="question3" value="2">health insurance organization</label>
                            </li>
                            <li>
-                             <label> <input type="radio" name="question3" value="3"> Financial Insitutions</label>
+                             <label> <input type="radio" name="question3" value="3"> Financial Institutions</label>
                            </li>
                            <li>
                              <label> <input type="radio" name="question3" value="4"> All of the above</label>
@@ -149,7 +150,7 @@ if (!$_SESSION['view_lessons']) {
                     </li>
                     <li class="question">
                        <div class="question-body">
-                        Which of the following statement is not correct?
+                        Which of the following statements is not correct?
                        </div>
                        <div class="question-option">
                          <ul>
@@ -170,7 +171,7 @@ if (!$_SESSION['view_lessons']) {
                     </li>
                     <li class="question">
                        <div class="question-body">
-                        Which of the following is not a Social Engineering methods?
+                        Which of the following is not a Social Engineering method?
                        </div>
                        <div class="question-option">
                          <ul>
@@ -191,7 +192,7 @@ if (!$_SESSION['view_lessons']) {
                     </li>
                     <li class="question">
                        <div class="question-body">
-                        Social Engineering attacker can make user of social for information gathering; true or false?
+                        Social Engineering attackers can make use of social media for information gathering; true or false?
                        </div>
                        <div class="question-option">
                          <ul>
@@ -248,7 +249,7 @@ if (!$_SESSION['view_lessons']) {
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       You received an email from a colleague within you company requesting for a sensitive information, you have check and verify the information on this email, what is the next thing you will do? *
+                       You received an email from a colleague within your company requesting sensitive information. You have checked and verified the information on this email, what is the next thing you will do? *
                        </div>
                        <div class="question-option">
                          <ul>
@@ -259,7 +260,7 @@ if (!$_SESSION['view_lessons']) {
                              <label> <input type="radio" name="question11" value="2">I will report any message requesting for sensitive information even if it is from a colleague that needs it</label>
                            </li>
                            <li>
-                             <label> <input type="radio" name="question11" value="3">I will reach the colleague through phone call to confirm the request I have received before performing any action on the email.</label>
+                             <label> <input type="radio" name="question11" value="3">I will reach the colleague through a phone call to confirm the request I have received before performing any action on the email.</label>
                            </li>
                            <li>
                              <label> <input type="radio" name="question11" value="4">All of the above</label>
@@ -311,7 +312,7 @@ if (!$_SESSION['view_lessons']) {
                     </li>
                     <li class="question">
                        <div class="question-body">
-                       If you are working in an office with other people and you had to step out to get a cup of coffee, which of the following will you do? *
+                       If you are working in an office with other people and you had to step out to get a cup of coffee, which of the following would you do? *
                        </div>
                        <div class="question-option">
                          <ul>

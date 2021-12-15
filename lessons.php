@@ -1,4 +1,3 @@
-
 <?php 
 @session_start();
 if (!(isset($_SESSION['firstname']) && $_SESSION['firstname'])) {
@@ -24,11 +23,11 @@ $_SESSION['view_lessons']=true;
               <h3 class="mb-4 mt-4">What is Social Engineering?</h3>
               <section class="body">
                   <p>
-                   Social engineering is the act of obtaining information by manipulating legitimate sources and this usually requires attackers deceiving the victims <i>(Allsopp (2009))</i>
+                   Social engineering is the act of obtaining information by manipulating legitimate sources and this usually requires attackers deceiving the victims <i>(Allsopp (2009))</i>.
                   </p>
 
                   <p>
-                   Social Engineering can also be seen as the act of finding means to manipulate reliable user to reveal private information in an effort to breakthrough security measures <i>(Mitnick (2003))</i>
+                   Social Engineering can also be seen as the act of finding means to manipulate reliable user to reveal private information in an effort to breakthrough security measures <i>(Mitnick (2003))</i>.
                   </p>
 
                   <p>
@@ -141,7 +140,7 @@ $_SESSION['view_lessons']=true;
               <section class="body">
                 <h3 class="mb-4 mt-4">Multi-factor Authentication</h3>
                   <p>
-                    multifactor authentication is a common and one of the effective ways for business organisations to confirm that the person accessing the systems should actually have that access. For instance, users could be sent an authentication link in order to confirm their identity whenever they want to access their account. 
+                    Multifactor authentication is a common and one of the effective ways for business organisations to confirm that the person accessing the systems should actually have that access. For instance, users could be sent an authentication link in order to confirm their identity whenever they want to access their account. 
                   </p>
 
                   <h3>Training and Awareness</h3>
